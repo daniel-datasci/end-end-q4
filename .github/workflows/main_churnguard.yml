@@ -73,4 +73,7 @@ jobs:
         with:
           app-name: 'churnguard'
           slot-name: 'Production'
+          enable-oryx-build: true
+          scm-do-build-during-deployment: true
+
           
